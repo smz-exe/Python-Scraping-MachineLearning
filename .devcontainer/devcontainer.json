@@ -1,0 +1,23 @@
+{
+    "name": "Python Scraping&MachineLearning",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.pythonPath": "/opt/conda/envs/Python-Scraping-MachineLearning_env/bin/python"
+            }
+        },
+        "extensions": [
+            "ms-python.python",
+            "ms-python.debugpy",
+            "ms-python.vscode-pylance",
+            "ms-python.autopep8",
+            "ms-toolsai.jupyter"
+        ]
+    },
+    "postCreateCommand": "pip install --upgrade pip",
+    "workspaceFolder": "/app"
+}

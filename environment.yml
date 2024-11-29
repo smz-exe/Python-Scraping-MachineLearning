@@ -1,0 +1,12 @@
+name: Python-Scraping-MachineLearning_env
+channels:
+    - defaults
+dependencies:
+    - python=3.10
+    - numpy
+    - pandas
+    - scikit-learn
+    - beautifulsoup4
+    - requests
+    - matplotlib
+    - jupyter
